@@ -23,10 +23,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003676804917"))
 
 # Get this value from @Harry_RoxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6848223695))
+OWNER_ID = int(getenv("OWNER_ID", "7967418569")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LearningBotsTeam")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LearningBotssupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_deadly_venom")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+MK3fgMGZu6JiYjQ1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -81,9 +81,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/10xn4h.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/10xn4h.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/10xn4h.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/cecbf4414a6b4ff48b297-482a571d7d06c437a2.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/062f851978de03808885f-eb92d34cde8511a7d6.jpg")
+PLAYLIST_IMG_URL = "https://graph.org/file/df60a4160209a6ca58eb2-6473d069fe73f4f397.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/10xn4h.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/10xn4h.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/10xn4h.jpg"
