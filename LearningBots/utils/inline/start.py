@@ -14,7 +14,7 @@ def start_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url="https://github.com/Learningbots79/Music"
+                url="https://telegra.ph/NEO-MUSIC-12-23"
             )
         ]
     ]
@@ -41,7 +41,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_7"], url=config.SUPPORT_CHANNEL), 
-            InlineKeyboardButton(text=_["S_B_5"], url="https://github.com/Learningbots79/Music")
+            InlineKeyboardButton(text=_["S_B_5"], url="https://telegra.ph/NEO-MUSIC-12-23")
         ]
     ]
     return buttons
