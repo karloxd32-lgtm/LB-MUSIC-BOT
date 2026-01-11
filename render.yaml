@@ -1,0 +1,26 @@
+# render.yaml for LB-MUSIC-BOT
+# Deploys a worker service to run the Telegram bot
+
+services:
+  - type: web
+    name: lb-music-bot
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python start" # or adjust to your bot's run script
+    envVars:
+      - key: BOT_TOKEN
+        value: "YOUR_BOT_TOKEN"
+      - key: API_ID
+        value: "YOUR_API_ID"
+      - key: API_HASH
+        value: "YOUR_API_HASH"
+      - key: OWNER_ID
+        value: "YOUR_TELEGRAM_USER_ID"
+      - key: MONGO_DB_URI
+        value: "YOUR_MONGO_URI"  # if used
+      - key: SESSION_STRING
+        value: ""
+      - key: PORT
+        value: "8000"
