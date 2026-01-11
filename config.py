@@ -7,26 +7,26 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("39932230"))
+API_HASH = getenv("785206fcbe254023f3fcb941237caee2")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8376943274:AAHF9XtjbsersspZzcLfwVIkiR5QwJJpCuo")
 
 #Get API_KEY from @LearningBotsOwner or @LearningBotsApiBot
-API_BASE_URL = getenv("API_BASE_URL", "https://learningbots.site")
+API_BASE_URL = getenv("API_BASE_URL", "https://t.me/+ATrfdtMNw-RhMGY9")
 API_KEY = getenv("API_KEY")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://karloxd89_db_user:ZuVKDrO1gGRVDLdi@luffy.pwiq3a5.mongodb.net/?appName=Luffy)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1003676804917"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003448179892"))
 
 # Get this value from @Harry_RoxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7967418569")
+OWNER_ID = int(getenv("OWNER_ID", "6847499628")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
